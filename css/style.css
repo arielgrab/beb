@@ -288,3 +288,19 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+
+@media (max-width: 768px) {
+  .masthead h1 {
+    width: 100%
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-light .navbar-nav .nav-link {
+    font-weight: bold;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: initial;
+}
