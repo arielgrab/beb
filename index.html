@@ -1,0 +1,273 @@
+---
+title: "B&B Contabilidade"
+address: "Rua Belarmino Antônio Silva, 20 - Centro, Palhoça - SC, 88131-010"
+schedule: "Segunda a Sexta<br>08:00 as 18:15"
+email: "contato@bebcontabilidade.com.br"
+phone: "(48) 3033-1129"
+zap: "(48) 99979-0017"
+
+about: "A B&B Contabilidade e Assessoria Empresarial está há mais de dez anos no mercado e busca aprimorar cada vez mais a qualidade de seus serviços. Atua nas áreas de assessoria contábil, tributaria, departamento de pessoal e paralegal, visando sempre o bom atendimento e satisfação do cliente, para isso conta com uma equipe preparada e qualificada para melhor atende-los."
+
+service1_title: "Contábil"
+service1_text: "Desempenha o trabalho pertinente a movimentação contábil da empresa, classifica as despesas, verifica e concilia contas, realiza os registros e escritura os livros fiscais. Elaboração de relatórios financeiros, tais como balanços e demonstrativos financeiros."
+
+service2_title: "Tributário"
+service2_text: "Através do recebimento da escrita fiscal, exerce o controle dos impostos, de âmbito federal, estadual e municipal. 
+Executa a entrega das obrigações assessorias e declarações obrigatórias."
+
+service3_title: "Departamento Pessoal"
+service3_text: "Responsável pela folha de pagamento, registros, admissões e demissões, o departamento pessoal cuida de todas as obrigações pertinentes ao RH de sua empresa. Garantindo sempre o cumprimento das leis trabalhistas."
+
+service4_title: "Paralegal"
+service4_text: "O setor de Paralegal opera na constituição da empresa, nas alterações contratuais e também no encerramento da empresa. Realiza também obtenção das certidões federais, estaduais e municipais, além disso, elabora os processos de obtenção dos alvarás obrigatórios para o funcionamento da empresa."
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>{{ page.title }}</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">{{ page.title }}</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">A Empresa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center">
+        <h1 class="mx-auto my-0"><img class="img-fluid" src="img/logo.png"></h1>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-white mb-4">{{ page.title }}</h2>
+          <p class="text-white text-justify">
+            {{page.about}}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section bg-light">
+    <div class="container">
+
+      <!-- Project One Row -->
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+          <img src="img/service1.jpg" class="img-fluid" alt="{{ page.service1_title }}">
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white">{{ page.service1_title }}</h4>
+                <p class="mb-0 text-white">{{ page.service1_text }}</p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Two Row -->
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <img src="img/service2.jpg" class="img-fluid" alt="{{ page.service2_title }}">
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">{{ page.service2_title }}</h4>
+                <p class="mb-0 text-white">{{ page.service2_text }}</p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+          <img src="img/service3.jpg" class="img-fluid" alt="{{ page.service3_title }}">
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white">{{ page.service3_title }}</h4>
+                <p class="mb-0 text-white">{{ page.service3_text }}</p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <img src="img/service4.jpg" class="img-fluid" alt="{{ page.service4_title }}">
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">{{ page.service4_title }}</h4>
+                <p class="mb-0 text-white">{{ page.service4_text }}</p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Signup Section -->
+  <!-- <section id="signup" class="signup-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+          <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+
+          <form class="form-inline d-flex">
+            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
+            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section bg-black">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Endereço</h4>
+              <hr class="my-4">
+              <div class="small text-black">
+                <p><a href="https://goo.gl/maps/AcX91fcUAqQrnmXT7" target="blank">{{ page.address }}</a></p>
+                <p> {{ page.schedule }} </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-envelope text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Email</h4>
+              <hr class="my-4">
+              <div class="small text-black">
+                <a href="mailto:{{ page.email }}">{{ page.email }}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-mobile-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Telefone</h4>
+              <hr class="my-4">
+              <div class="small text-black">
+                <p><i class="fa fa-phone-alt"></i> {{ page.phone }}</p>
+                <p><a href="https://wa.me/554899790017" target="blank"><i class="fab fa-whatsapp"></i> {{ page.zap }}</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="social d-flex justify-content-center">
+        <a href="https://www.instagram.com/bbcontabilidadee/" class="mx-2" target="blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/bebcontabilidadeeassessoria/" class="mx-2" target="blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black small text-center text-white-50">
+    <div class="container">
+      Copyright &copy; B&B Contabilidade {{ site.time | date: '%Y' }}
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/script.min.js"></script>
+
+</body>
+
+</html>
