@@ -1,10 +1,15 @@
 ---
 title: "B&B Contabilidade"
-address: "Rua Belarmino Antônio Silva, 20 - Centro, Palhoça - SC, 88131-010"
+address: "Rua Frei Nazário Knaben, 38, 2º Piso - Centro, Palhoça - SC, 88130-230"
 schedule: "Segunda a Sexta<br>08:00 as 18:15"
 email: "contato@bebcontabilidade.com.br"
 phone: "(48) 3033-1129"
 zap: "(48) 99979-0017"
+
+maps_url: "https://goo.gl/maps/92XMm6JWw116eZMe8"
+zap_url: "https://wa.me/554899790017"
+instagram_url: "https://www.instagram.com/bbcontabilidadee/"
+facebook_url: "https://www.facebook.com/bebcontabilidadeeassessoria/"
 
 about: "A B&B Contabilidade e Assessoria Empresarial está há mais de dez anos no mercado e busca aprimorar cada vez mais a qualidade de seus serviços. Atua nas áreas de assessoria contábil, tributaria, departamento de pessoal e paralegal, visando sempre o bom atendimento e satisfação do cliente, para isso conta com uma equipe preparada e qualificada para melhor atende-los."
 
@@ -168,28 +173,8 @@ service4_text: "O setor de Paralegal opera na constituição da empresa, nas alt
           </div>
         </div>
       </div>
-
     </div>
   </section>
-
-  <!-- Signup Section -->
-  <!-- <section id="signup" class="signup-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10 col-lg-8 mx-auto text-center">
-
-          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-          <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-
-          <form class="form-inline d-flex">
-            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
-            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
-          </form>
-
-        </div>
-      </div>
-    </div>
-  </section> -->
 
   <!-- Contact Section -->
   <section id="contact" class="contact-section bg-black">
@@ -204,7 +189,7 @@ service4_text: "O setor de Paralegal opera na constituição da empresa, nas alt
               <h4 class="text-uppercase m-0">Endereço</h4>
               <hr class="my-4">
               <div class="small text-black">
-                <p><a href="https://goo.gl/maps/AcX91fcUAqQrnmXT7" target="blank">{{ page.address }}</a></p>
+                <p><a href="{{ page.maps_url }}" target="blank">{{ page.address }}</a></p>
                 <p> {{ page.schedule }} </p>
               </div>
             </div>
@@ -232,7 +217,7 @@ service4_text: "O setor de Paralegal opera na constituição da empresa, nas alt
               <hr class="my-4">
               <div class="small text-black">
                 <p><i class="fa fa-phone-alt"></i> {{ page.phone }}</p>
-                <p><a href="https://wa.me/554899790017" target="blank"><i class="fab fa-whatsapp"></i> {{ page.zap }}</a></p>
+                <p><a href="{{ page.zap_url }}" target="blank"><i class="fab fa-whatsapp"></i> {{ page.zap }}</a></p>
               </div>
             </div>
           </div>
@@ -240,10 +225,10 @@ service4_text: "O setor de Paralegal opera na constituição da empresa, nas alt
       </div>
 
       <div class="social d-flex justify-content-center">
-        <a href="https://www.instagram.com/bbcontabilidadee/" class="mx-2" target="blank">
+        <a href="{{ page.instagram_url }}" class="mx-2" target="blank">
           <i class="fab fa-instagram"></i>
         </a>
-        <a href="https://www.facebook.com/bebcontabilidadeeassessoria/" class="mx-2" target="blank">
+        <a href="{{ page.facebook_url }}" class="mx-2" target="blank">
           <i class="fab fa-facebook-f"></i>
         </a>
       </div>
