@@ -1,25 +1,30 @@
----
-permalink: /404.html
-email: "contato@bebcontabilidade.com.br"
----
-
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Página não encontrada :(</strong></p>
-  <p><a href="mailto:{{ page.email }}">{{ page.email }}</a>.</p>
-</div>
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <title>Página não encontrada — B&amp;B Contabilidade</title>
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" href="img/favicon-48.png" type="image/png" sizes="48x48">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" sizes="180x180">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      .error-page { min-height: 100svh; display: grid; place-items: center; padding: 2rem; color: var(--white); background: var(--green-950); text-align: center; }
+      .error-page strong { display: block; color: var(--green-300); font-size: clamp(5rem, 20vw, 11rem); font-weight: 800; line-height: .8; }
+      .error-page h1 { margin: 2rem 0 .75rem; font-family: Georgia, serif; font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 400; }
+      .error-page p { color: rgba(255,255,255,.75); }
+      .error-page a { display: inline-block; margin-top: 1rem; padding: .9rem 1.4rem; color: var(--green-950); background: var(--white); border-radius: 999px; font-weight: 750; text-decoration: none; }
+    </style>
+  </head>
+  <body>
+    <main class="error-page">
+      <div>
+        <strong aria-hidden="true">404</strong>
+        <h1>Página não encontrada</h1>
+        <p>O endereço pode ter mudado ou não estar mais disponível.</p>
+        <a href="./">Voltar para o início</a>
+      </div>
+    </main>
+  </body>
+</html>
